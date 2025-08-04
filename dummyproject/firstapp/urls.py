@@ -4,4 +4,5 @@ from . import views
 urlpatterns = [
     path('function', views.hello_world),
     path('class', views.HelloMoonieBear.as_view()),
+    path('reservation', views.home),
 ]
